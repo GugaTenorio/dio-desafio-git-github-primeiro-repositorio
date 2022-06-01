@@ -1,0 +1,27 @@
+
+Alguns Comandos Git básicos para iniciantes:
+
+git config:
+Pode ser usado para definir valores de 
+configuração específicos do usuário como e-mail
+git config --global user.email jam@google.com
+
+git init:
+Este comando é usado para criar um novo repositório GIT
+
+git clone:
+O comando git clone é usado para fins de verificação de repositório. Se o repositório estiver 
+em um servidor remoto, use:
+git clone paulo@93.188.160.58:/path/to/repository
+
+git add:
+O comando git add pode ser usado para adicionar arquivos ao índice. Por exemplo, o 
+seguinte comando irá adicionar um arquivo chamado temp.txt presente no diretório local 
+para o índice:
+git add temp.txt
+
+git commit:
+O comando git commit é usado para confirmar as alterações na cabeça. Tenha em atenção 
+que quaisquer alterações efetuadas não irão para o repositório remoto. Uso:
+git commit –m "coloque sua mensagem aqui"
+
